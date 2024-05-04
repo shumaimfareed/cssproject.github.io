@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+
+
+}
+.brand{
+    color: red;
+    font-style: oblique;
+    font-family:'Times New Roman', Times, serif ;
+
+}
+.navlist{
+    list-style: none;
+    display: flex;
+}
+
+.listitems{
+
+}
+.navhome{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+    
+
+.navhome:hover{
+    background-color:blue;
+    text-decoration: none;
+    list-style: none; 
+    color: white;
+    font-size: 20px;
+    }
+.navlinks{
+    text-decoration: none;
+    color: white;
+    padding: 25px;
+    font-size: 20px;
+}
+
+.searchsec{
+    padding: left 20px; ;
+
+}
+.searchbar{
+    border-radius: 5px;
+    padding: 5px 10px;
+
+}
+.navbtn{
+    padding-left: 10px;
+    border-radius: 5px;
+    padding: 5px 20px;
+    border-color: white;
+    color: blue;
+    cursor: pointer;
+    
+
+}
+.navbtn:hover{
+    background-color: blue;
+    color: white;
+    box-sizing: content-box;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: #f0f0f0;
+}
+header{
+    background-color:#3498db ;
+    color:#fff ;
+    padding: 20px;
+    text-align: center;
+}
+h1{
+    font-size: 2em;
+    margin-bottom: 0;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    padding: 50px;
+    max-width: 900px;
+}
+.container p{
+    text-align: center;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    background-color: blue;
+    color: white;
+}
+.button button{
+    background-color:#3498db ;
+    color: #fff;
+    padding:10px 20px ;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.button button:hover{
+    background-color: #2980b9;
+}
+.feature{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.feature{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.feature{
+    width: 48%;
+    text-align: justify;
+}
+img{
+    width: 500px;
+    height: 300px;
+}
